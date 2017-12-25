@@ -1,0 +1,77 @@
+[
+  {
+    "key" : "homeTabbar",
+    "actionDesc" : "首页tabbar",
+    "parameters" : [
+
+    ]
+  },
+  {
+    "key" : "webview",
+    "actionDesc" : "webview",
+    "parameters" : [
+      {
+        "name" : "url"
+      }
+    ]
+  },
+  {
+    "key" : "webview",
+    "actionDesc" : "webview",
+    "parameters" : [
+      {
+        "name" : "htmlString"
+      }
+    ]
+  },
+  {
+    "key" : "Home",
+    "actionDesc" : "2017年新版首页",
+    "parameters" : [
+      {
+        "name" : "titlex"
+      }
+    ]
+  },
+  {
+    "key" : "objectTypeTest",
+    "actionDesc" : "泛型测试",
+    "parameters" : [
+      {
+        "name" : "aaa"
+      }
+    ]
+  },
+  {
+    "key" : "setting",
+    "actionDesc" : "设置页面",
+    "parameters" : [
+
+    ]
+  },
+  {
+    "key" : "myProfile",
+    "actionDesc" : "我的个人页",
+    "parameters" : [
+      {
+        "name" : "userId"
+      }
+    ]
+  },
+  {
+    "key" : "myProfile",
+    "actionDesc" : "个人页",
+    "parameters" : [
+      {
+        "name" : "user"
+      }
+    ]
+  },
+  {
+    "key" : "login",
+    "actionDesc" : "登录页面",
+    "parameters" : [
+
+    ]
+  }
+]

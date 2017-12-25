@@ -1,0 +1,20 @@
+PODS:
+  - LJRouter (0.7.0):
+    - LJRouter/Core (= 0.7.0)
+    - LJRouter/Navigation (= 0.7.0)
+  - LJRouter/Core (0.7.0)
+  - LJRouter/Navigation (0.7.0)
+
+DEPENDENCIES:
+  - LJRouter (from `../`)
+
+EXTERNAL SOURCES:
+  LJRouter:
+    :path: ../
+
+SPEC CHECKSUMS:
+  LJRouter: d053c8cc9b7f54bf18a2a3dca9ddf61ace7ec00c
+
+PODFILE CHECKSUM: 31444511aaf50633ab2e4b8ab8d4887ee12ec0e6
+
+COCOAPODS: 1.4.0.rc.1

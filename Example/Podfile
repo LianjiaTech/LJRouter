@@ -1,0 +1,6 @@
+source 'http://git.lianjia.com/mobile_ios/Lianjia_component_Podspec.git'
+
+target 'LJRouter_Example' do
+    pod 'LJRouter', :path => '../'
+end
+

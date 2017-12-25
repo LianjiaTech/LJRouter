@@ -1,0 +1,9 @@
+#!/bin/sh
+cd ${PODS_ROOT}/LJRouter/
+if [ ! -x LJRouterExportDevDocument ];
+then
+clang -mmacosx-version-min=10.5 -isysroot '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk' -framework Foundation LJRouter/ExportTool/LJRouterExportModule.m LJRouter/ExportDocument/LJRouterExportDevDocument.m -o LJRouterExportDevDocument
+fi
+cmd="./LJRouterExportDevDocument $*"
+echo $cmd
+eval $cmd

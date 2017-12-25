@@ -1,0 +1,64 @@
+[
+  {
+    "key" : "somejscmd",
+    "actionDesc" : "接收js命令\/\/ 接收一个字符串 添加_haha结尾",
+    "parameters" : [
+      {
+        "name" : "str"
+      },
+      {
+        "name" : "callback"
+      }
+    ]
+  },
+  {
+    "key" : "setWebViewTitle",
+    "actionDesc" : "设置UIWebView标题",
+    "parameters" : [
+      {
+        "name" : "sender"
+      },
+      {
+        "name" : "title"
+      }
+    ]
+  },
+  {
+    "key" : "setWebViewTitle2",
+    "actionDesc" : "设置UIWebView标题",
+    "parameters" : [
+      {
+        "name" : "sender"
+      },
+      {
+        "name" : "title"
+      }
+    ]
+  },
+  {
+    "key" : "loginIfNeed",
+    "actionDesc" : "判断登录状态,弹出登录页面",
+    "parameters" : [
+      {
+        "name" : "curVC"
+      },
+      {
+        "name" : "finishBlock"
+      }
+    ]
+  },
+  {
+    "key" : "isLogin",
+    "actionDesc" : "是否登录状态",
+    "parameters" : [
+
+    ]
+  },
+  {
+    "key" : "logout",
+    "actionDesc" : "退出登录",
+    "parameters" : [
+
+    ]
+  }
+]
