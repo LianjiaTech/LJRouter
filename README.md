@@ -13,7 +13,8 @@ pod 'LJRouter'
 ${PODS_ROOT}/LJRouter/build /LJAutogenComponentHeaders
 ```
 LJAutogenComponentHeaders 可以修改为您需要的名字，后续自动生成的代码会导出到你的项目下该名字的目录中。
-`注意:文件夹只有以Module结尾时被认为是一个模块,该文件夹下的文件才可以生成头文件(递归)`
+
+**注意:文件夹只有以Module结尾时被认为是一个模块,该文件夹下的文件才可以生成头文件(递归)**
 ### 1.3 添加文件
 进行过 1.1 和 1.2 步骤之后，编译您的代码，然后您会在项目的目录下发现 1.2 中的文件夹，在xcode的源码管理页面中，选择Add files to "xxxxx"，然后选择Create folder references，去掉target选项，再选择 步骤1.2 的文件夹，点击Add.后续自动生成的头文件就会出现在该文件夹中了。
 `注意:请不要直接引用自动生成的头文件`
