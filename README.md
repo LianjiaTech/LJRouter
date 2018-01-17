@@ -1,4 +1,7 @@
 #LJRouter
+## 0.Example
+Example中,请先编译LJRouterExportModule生成文档组件，再运行LJRouter-Example才可生成文档。
+
 ## 1.接入
 ### 1.1 拉取代码
 推荐使用cocoapods进行接入，
