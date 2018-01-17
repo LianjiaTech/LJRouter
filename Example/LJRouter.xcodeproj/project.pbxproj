@@ -363,7 +363,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "cd ${TARGET_BUILD_DIR}/../Debug\n./LJRouterExportModule outputHeaders";
+			shellScript = "if [ -f \"${TARGET_BUILD_DIR}/../Debug/LJRouterExportModule\" ]\nthen\n    cd \"${TARGET_BUILD_DIR}/../Debug\"\n    ./LJRouterExportModule outputHeaders\nelse\n    echo \"请先编译一次LJRouterExportModule\"\nfi";
 		};
 /* End PBXShellScriptBuildPhase section */
 
