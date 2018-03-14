@@ -270,3 +270,6 @@ webview拦截request的通讯方式实现如下
 
 你可以对导出文档部分进行二次开发，最便捷的方式是在项目中新建一个mac的target，然后将LJRouter/Export/下面的文件加入到target中，然后新建自定义的导出文档的文件，你可以使用 LJRouterExportModule.h中的loadAllRegItemByPath函数读取所有的注册信息.你需要自行管理文档文件，二次开发只提供的基础的读取注册信息的功能.
 
+## 4 朋友写的一个源码解析 感兴趣的同学可以看看
+http://drinking.github.io/2018/03/08/ljrouter.html
+
